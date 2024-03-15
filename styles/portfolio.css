@@ -59,8 +59,8 @@ p {
 }
 
 .btn-branding {
-  color: var(--secondary-color);
-  border-color: var(--secondary-color);
+  color: var(--primary-color);
+  background-color: whitesmoke;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
