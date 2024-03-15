@@ -84,6 +84,11 @@ p {
   padding: 120px 60px;
 }
 
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
