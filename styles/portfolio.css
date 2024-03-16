@@ -17,6 +17,7 @@ body {
 
 img {
   border-radius: 15px;
+  max-width: 100%;
 }
 
 .content-section {
