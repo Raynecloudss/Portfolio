@@ -25,26 +25,27 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Avané Falls</title>
+    <meta name="description" content="Avané is a front-end engineer based in the USA currently searching for work.  This is her portfolio and projects">
+    <title>Front-end developer: Avané Falls</title>
   </head>
   <body>
     <div class="container">
     <nav class="d-flex justify-content-between">
       <a href="/">
-        <img src="images/logo.png" alt="SheCodes Logo" class="logo d-none d-md-block">
+        <img src="images/logo.png" alt="SheCodes Logo" class="logo d-none d-md-block" title="SheCodes logo">
       </a>
         <ul >
-          <li>
-            <a href="/">Home</a>
+          <li class="active">
+            <a href="/" title="homepage" >Home</a>
             </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Avané">About</a>
             </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Avané's work page">Work</a>
             </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Avané">Contact</a>
             </li>
         </ul>
       </nav>
@@ -111,7 +112,7 @@
                               </div>
                   </div>
       </div>
-      <footer>
+      <footer class="container">
         <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
           <div class="mt-4">
             <h4>Work Inquiries</h4>
@@ -119,25 +120,26 @@
               Lets work together
             </p>
           </div>
-          <a href="" class="btn btn-branding-outline-reverse mt-5 mb-5" >Contact Me
+          <a href="/contact.html" class="btn btn-branding-outline-reverse mt-5 mb-5" title="Contact Avané">Contact Me
             <i class="fa-regular fa-heart"></i>
           </a>
         </div>
-        <a href="mailto:rayne.a.fall@icloud.com" class="email-link d-flex justify-content-center mb-4">rayne.a.fall@icloud.com</a>
+        <a href="mailto:rayne.a.fall@icloud.com" class="email-link d-flex justify-content-center mb-4" title="Email Avané">rayne.a.fall@icloud.com</a>
         <div class="social-links d-flex justify-content-center">
-<a href="https://www.github.com/Raynecloudss" target="_blank">
+<a href="https://www.github.com/Raynecloudss" target="_blank" title="Github">
   <i class="fa-brands fa-github"></i>
 </a>
-<a href="https://twitter.com" target="_blank">
+<a href="https://twitter.com" target="_blank" title="Twitter">
   <i class="fa-brands fa-twitter"></i>
 </a>
-<a href="mailto:rayne.a.fall@icloud.com">
+<a href="mailto:rayne.a.fall@icloud.com" title="Send an email">
   <i class="fa-regular fa-envelope"></i>
 </a>
         </div>
       </footer>
 </div>
     </div>
+    <p class="text-center text-muted mt-5">This project was coded by Avané, and is <a href="https://github.com/Raynecloudss/Portfolio" target="_blank">open-sourced</a> on Github</p>
   </body>
   <script src="styles/portfolio.js"></script>
 </html>
