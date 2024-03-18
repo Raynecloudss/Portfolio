@@ -11,6 +11,33 @@
   padding: 160px 20px;
 }
 
+.logo {
+  max-width: 150px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav li {
+  display: inline;
+  line-height: 40px;
+  margin-left: 10px;
+}
+
+nav li:hover {
+  text-decoration: underline var(--secondary-color);
+}
+
+nav li:active a {
+  color: var(--secondary-color);
+  text-decoration: underline var(--primary-color);
+}
+
+nav ul {
+  padding: 0;
+}
+
 body {
   font-family: var(--primary-font);
 }
